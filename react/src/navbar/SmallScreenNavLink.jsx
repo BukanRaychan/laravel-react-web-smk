@@ -25,7 +25,7 @@ function SmallScreenNavLink({ title, endpoint = "", handleClick, subMenu = null 
                     {
                     subMenu.map((navLink, index) => (
                         <Link key = {index} to={navLink.endpoint} onClick={handleClick}>
-                            <li className='py-5 bg-grey text-black border-b border-white hover:bg-tertiary hover:text-white cursor-pointer'>
+                            <li className='py-5 text-[18px] bg-lightgrey text-black border-b border-grey hover:bg-tertiary hover:text-white cursor-pointer'>
                                 {navLink.title}
                             </li>
                         </Link>

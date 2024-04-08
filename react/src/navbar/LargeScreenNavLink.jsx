@@ -6,7 +6,7 @@ function LargeScreenNavLink({title, endpoint}) {
         // <Link spy={true} smooth={true} to="/">
         //   <li className='hover:text-tertiary transition hover:border-b-2 hover:border-tertiary cursor-pointer'>Home</li>
         // </Link>
-        <li className='hover:text-tertiary transition border-b-2 border-white hover:border-tertiary cursor-pointer'>
+        <li className='inline-block hover:text-tertiary transition border-b-2 border-white hover:border-tertiary cursor-pointer'>
             <Link to={endpoint}>
                 {title}
             </Link>

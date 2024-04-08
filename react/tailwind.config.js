@@ -9,6 +9,7 @@ export default {
       colors : {
         white : "#F0EFEF",
         grey : "#CDCDCD",
+        lightgrey : "#EAEAEA",
         black : "#2C2C2C",
         primary : "#010038",
         secondary : "#293A80",
